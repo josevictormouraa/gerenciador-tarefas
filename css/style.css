@@ -1,0 +1,173 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body{
+  display: grid;
+  grid-template-columns: 40px auto 300px;
+  background-color: rgba(88, 88, 88, 0.089);
+  height: 800px;
+  
+}
+
+.side-bar{
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  outline: none;
+}
+
+
+
+/* Main */
+
+.barra-pesquisa{
+  display: flex;
+  gap: 20px;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.10) 0px 0px 5px;
+}
+
+.barra-pesquisa input{
+  outline: none;
+  border: none;
+}
+
+/* --------- */
+
+.descricao-tarefas{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.descricao-tarefas p{
+  font: 600 0.950rem/1.0 "Arial";
+}
+
+.descricao-tarefas a{
+  font: 600 0.700rem/1.0 "Arial";
+  color: white;
+  background-color: #5865FF;
+  padding: 10px 12px;
+  border-radius: 5px;
+}
+
+.container-tarefas{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.container-tarefas p{
+  padding: 2px 0;
+}
+
+.card-tarefas {
+  background-color: white;
+  padding: 20px;
+  border-radius: 7px;
+  box-shadow: rgba(0, 0, 0, 0.100) 0px 0px 2px;
+  flex: 1;
+}
+
+.card-tarefas p{
+  font-size: 0.900rem;
+}
+
+.length-tarefas{
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Folders */
+.length-tarefas span,
+.length-folders
+{
+  font-size: 0.600rem;
+}
+
+
+/* Section Login */
+
+.container-login{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+#image-input {
+  display: none;
+}
+
+button{
+  padding: 10px 50px;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  background-color: #FA584C;
+  font-size: 600 1.125rem/1.0 "Arial";
+}
+
+.container-login div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(128, 128, 128, 0.215);
+  padding: 5px 8px;
+  border-radius: 10px;
+  gap: 2px;
+}
+
+.container-login p{
+  font: 600 0.700rem/1.0 "Arial";
+}
+
+.container-login img{
+  width: 80px;
+}
+
+/* Tarefas-recente */
+
+.tarefas-recente{
+  padding: 20px;
+}
+
+
+.container-tarefas-recente{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.10) 0px 0px 5px;
+  margin-bottom: 10px;
+  background-color: white;
+}
+
+
+/* imgs */
+
+.imgs{
+  display: flex;
+}
+
+.imgs div img{
+  margin-right: 80px;
+}
+
+img[src^="https"]{
+  border-radius: 50%;
+}
+
